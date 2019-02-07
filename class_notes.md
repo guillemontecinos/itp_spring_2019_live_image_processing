@@ -1,7 +1,7 @@
 # Live Image Processing Blog Class Notes
 
-[Github Repo](https://github.com/mromein/lipp_itp_2019)
-[Website](https://itp.nyu.edu/classes/lipp/)
+* [Github Repo](https://github.com/mromein/lipp_itp_2019)
+* [Website](https://itp.nyu.edu/classes/lipp/)
 
 ## Week 2
 
