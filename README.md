@@ -14,7 +14,7 @@ For the second class we were committed to make different kind video footages in 
 For example I felt curious of recording the movement of bubbles in a boiling glass made water kettle so I took a shoot of the floor's kitchen kettle which also has a funny blue light. As well, I attempted to explore light reflection through a glass of water and the shapes light can make over a surface.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_2/assets/water2.gif" align="middle" width="70%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_2/assets/water3.gif" align="middle" width="70%">
 </p>
 
 On the other hand I explored materials as lumber, synthetic grass and leaves of plants that I found in the floor shelves. Something interesting happened in the last one because they are lightened with a ultraviolet set of LEDs which a particular wave length that made a weird interference when I recorded it.
