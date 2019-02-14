@@ -26,4 +26,8 @@ On the other hand I explored materials as lumber, synthetic grass and leaves of 
 ## Week 3
 I built a basic video mixer using the `jit.xfade` function, which receives a float number between 0. and 1. as an input. In this case the number represents the percentage in which the left image is screen versus the right one. Also, I used `umenu` to easily load the videos into the patch.
 
-After that I attempted to apply a downsampling function to one o the channels as we did in class using `jit.matrix` and it's `dim` parameter, bur weirdly this size processing affected both left and the final mix after `xfade`  
+After that I attempted to apply a downsampling function to one o the channels as we did in class using `jit.matrix` and it's `dim` parameter, bur weirdly this size processing affected both left and the final mix after `xfade`.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_2/assets/mixer_1.gif" align="middle" width="70%">
+</p>
