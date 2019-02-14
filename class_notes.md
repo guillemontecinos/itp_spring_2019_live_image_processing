@@ -16,6 +16,7 @@
 * jit.matrix
   * when downsampling, information can't be recovered, so upsample just makes a bigger image but with the same amount of information
   * data types: char (0-255), float32 (0.-1.), float64, long
+  * dim changes the number of pixels that compose the matrix but not the size of the window.
 * jit.fpsgui
 * jit.cellblock
 * pack: packs information but outputs only when left inlet changes
