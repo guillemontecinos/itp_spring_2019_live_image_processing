@@ -31,6 +31,7 @@
 * take a look of jit.mo package for animations without have to connext `~ezdac`
 * `suckah` gets the pixel of a point and returns the color
 * Cmd+Y to align patches
+* `Gen`
 * For next week:
   * Keep learning
   * look for refernts
