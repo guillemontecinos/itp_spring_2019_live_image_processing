@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 201.0, 296.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "this matrix forces the optuput size to 640x480"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 46.0, 295.0, 139.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.matrix 4 char 640 480"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "number",
 					"maximum" : 300,
@@ -148,7 +174,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-22",
-					"items" : [ "grass1.mov", ",", "grass2.mov", ",", "lumber1.mov", ",", "materials1.mov", ",", "plants1.gif", ",", "plants1.mov", ",", "water1.gif", ",", "water1.mov", ",", "water2.mov", ",", "water3.gif", ",", "water3.mov" ],
+					"items" : [ "grass1.mov", ",", "grass2.mov", ",", "lumber1.mov", ",", "materials1.mov", ",", "mixer_1.gif", ",", "plants1.gif", ",", "plants1.mov", ",", "water1.gif", ",", "water1.mov", ",", "water2.mov", ",", "water3.gif", ",", "water3.mov" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -179,7 +205,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-20",
-					"items" : [ "grass1.mov", ",", "grass2.mov", ",", "lumber1.mov", ",", "materials1.mov", ",", "plants1.gif", ",", "plants1.mov", ",", "water1.gif", ",", "water1.mov", ",", "water2.mov", ",", "water3.gif", ",", "water3.mov" ],
+					"items" : [ "grass1.mov", ",", "grass2.mov", ",", "lumber1.mov", ",", "materials1.mov", ",", "mixer_1.gif", ",", "plants1.gif", ",", "plants1.mov", ",", "water1.gif", ",", "water1.mov", ",", "water2.mov", ",", "water3.gif", ",", "water3.mov" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -285,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 87.0, 304.0, 168.0, 132.0 ]
+					"patching_rect" : [ 55.0, 510.0, 168.0, 132.0 ]
 				}
 
 			}
@@ -458,16 +484,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -513,6 +530,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

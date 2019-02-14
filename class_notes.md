@@ -21,3 +21,17 @@
 * jit.cellblock
 * pack: packs information but outputs only when left inlet changes
 * pak: the same as pack but outputs whenever inlets change
+
+## Week 3
+* `xfade` forces the output matrix size to the left matrix size
+* `jit.op @op +` makes an add operation to each one of the pixels of a matrix.
+  * Also it can do any kind of math operations between matrices
+* `jit.rgb2luma` calculates the luminocity of an image
+* `trigger something` triggers the command in a message and adds the mesagge *something*
+* take a look of jit.mo package for animations without have to connext `~ezdac`
+* `suckah` gets the pixel of a point and returns the color
+* Cmd+Y to align patches
+* For next week:
+  * Keep learning
+  * look for refernts
+  * think about what to do for the first performance
