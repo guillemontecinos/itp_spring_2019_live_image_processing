@@ -36,3 +36,16 @@
   * Keep learning
   * look for refernts
   * think about what to do for the first performance
+
+## Week 4
+* `alphablend`
+### Some Referents Today
+* Ryoji Ikeda - Superposition
+* BKLYN!ZULU
+* Modell 5
+* Francis Bacon [portraits](https://nyoobserver.files.wordpress.com/2015/01/francis-bacon-two-studies-for-a-self-portrait.jpg) and [movie](https://www.imdb.com/title/tt0119577/)
+* slitscan
+* Blake Carrington
+* Judy Dunaway - Gian Ballon
+* Mark - desktop vide performances
+* `preset` object is useful for saving presets
