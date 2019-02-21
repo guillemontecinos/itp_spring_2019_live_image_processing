@@ -38,13 +38,13 @@ During this week I worked in the design of my basic video mixer in Max/Jitter. T
 I explored 4 main effects: `rgb2hsl`, `chromakey`, `op` and `random size`. `rgb2hsl` was chosen as an option to saturate the color of the video since it *misunderstands* the actual color by changing its framework from RGB to HSL. In this case the controls can change Hue *offset* and *scale* as well as Lightness *offset*.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_rgb2hsl.png" align="middle" width="70%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_rgb2hsl.png" align="middle" width="40%">
 </p>
 
 `chromakey` and `op` were fed in a feedback loop with their own output –maybe just for now because I didn't want to over-complicate this patch. For `op` there is a menu connected to it's 1st inlet that allows the user to select which operation want to be calculated. On the other hand, for `chromakey` there is color palette and selector to set *tolerance* and *fade*, both attributes of the object. Finally, a random size block was set after the filtering block as a post processing block.
 
 <p align="center">
-  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_chromakey.png" align="middle" width="70%">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_chromakey.png" align="middle" width="40%">
 </p>
 
 This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect.
