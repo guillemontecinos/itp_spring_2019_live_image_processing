@@ -33,7 +33,21 @@ After that I attempted to apply a downsampling function to one o the channels as
 </p>
 
 ## Week 3
-During this week I worked in the design of my basic video mixer in Max/Jitter. To afford that I took a bunch of example filters showed in class and explored the possibilities that they opened. This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect.
+During this week I worked in the design of my basic video mixer in Max/Jitter. To afford that I took a bunch of example filters showed in class and explored the possibilities that they opened.
+
+I explored 4 main effects: `rgb2hsl`, `chromakey`, `op` and `random size`. `rgb2hsl` was chosen as an option to saturate the color of the video since it *misunderstands* the actual color by changing its framework from RGB to HSL. In this case the controls can change Hue *offset* and *scale* as well as Lightness *offset*.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_rgb2hsl.png" align="middle" width="70%">
+</p>
+
+`chromakey` and `op` were fed in a feedback loop with their own output –maybe just for now because I didn't want to over-complicate this patch. For `op` there is a menu connected to it's 1st inlet that allows the user to select which operation want to be calculated. On the other hand, for `chromakey` there is color palette and selector to set *tolerance* and *fade*, both attributes of the object. Finally, a random size block was set after the filtering block as a post processing block.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_chromakey.png" align="middle" width="70%">
+</p>
+
+This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect.
 
 As can be seen in the next next video my exploration wasn't deep in terms of finding psychedelic or weird filtering but was intense in developing a well organized design that could work as a framework where I can incorporate new effects I will find during the next days.
 
