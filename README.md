@@ -4,7 +4,7 @@
 
 This document and the contents stored in this repo corresponds to the class [Live Image Processing](https://itp.nyu.edu/classes/lipp/) taught by Matt Romein, at NYU ITP during the 2019 Spring term.
 
-## Week 2
+## Week 1
 For the second class we were committed to make different kind video footages in order to have a diversity of moving images to use as resource for video processing. I decided to explore different materials that would bring me diverse textures, colors and depth levels, most of them available indoors as water and plants. In terms of technical stuff I made the footage in an horizontal orientation and converted half of the videos using Adobe Premiere and ffmpeg –using the command `ffmpeg -i input.mp4 -c:v prores -an output.mov`
 
 <p align="center">
@@ -23,11 +23,22 @@ On the other hand I explored materials as lumber, synthetic grass and leaves of 
   <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_2/assets/plants1.gif" align="middle" width="70%">
 </p>
 
-## Week 3
+## Week 2
 I built a basic video mixer using the `jit.xfade` function, which receives a float number between 0. and 1. as an input. In this case the number represents the percentage in which the left image is screen versus the right one. Also, I used `umenu` to easily load the videos into the patch.
 
 After that I attempted to apply a downsampling function to one o the channels as we did in class using `jit.matrix` and it's `dim` parameter, bur weirdly this size processing affected both left and the final mix after `xfade`.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_2/assets/mixer_1.gif" align="middle" width="70%">
+</p>
+
+## Week 3
+During this week I worked in the design of my basic video mixer in Max/Jitter. To afford that I took a bunch of example filters showed in class and explored the possibilities that they opened. This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect.
+
+As can be seen in the next next video my exploration wasn't deep in terms of finding psychedelic or weird filtering but was intense in developing a well organized design that could work as a framework where I can incorporate new effects I will find during the next days.
+
+<p align="center">
+  <a href="https://vimeo.com/318798051">
+    <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/mixer_5.gif" align="middle" width="70%">
+  </a>
 </p>
