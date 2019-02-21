@@ -35,6 +35,10 @@ After that I attempted to apply a downsampling function to one o the channels as
 ## Week 3
 During this week I worked in the design of my basic video mixer in Max/Jitter. To afford that I took a bunch of example filters showed in class and explored the possibilities that they opened.
 
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_mixer_5.png" align="middle" width="70%">
+</p>
+
 I explored 4 main effects: `rgb2hsl`, `chromakey`, `op` and `random size`. `rgb2hsl` was chosen as an option to saturate the color of the video since it *misunderstands* the actual color by changing its framework from RGB to HSL. In this case the controls can change Hue *offset* and *scale* as well as Lightness *offset*.
 
 <p align="center">
@@ -47,9 +51,7 @@ I explored 4 main effects: `rgb2hsl`, `chromakey`, `op` and `random size`. `rgb2
   <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/video_chromakey.png" align="middle" width="40%">
 </p>
 
-This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect.
-
-As can be seen in the next next video my exploration wasn't deep in terms of finding psychedelic or weird filtering but was intense in developing a well organized design that could work as a framework where I can incorporate new effects I will find during the next days.
+This is the case of the `chromakey` function I fed with it's own output –after mixing its ARGB planes– to create a weird neon effect. As can be seen in the next next video my exploration wasn't deep in terms of finding psychedelic or weird filtering but was intense in developing a well organized design that could work as a framework where I can incorporate new effects I will find during the next days.
 
 <p align="center">
   <a href="https://vimeo.com/318798051">
