@@ -81,7 +81,7 @@ Video mixing was live controlled from two sources: most parameters as sliders an
 A rehearsal of this performance can be seen below. For better understanding of how the different elements interact, both Live and Max were recorded during the documentation process.
 
 <p align="center">
-  <a href="https://vimeo.com/manage/320596389">
+  <a href="https://vimeo.com/320596389">
     <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_5/performance_01/documentation/documentation.gif" align="middle" width="70%">
   </a>
 </p>
