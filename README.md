@@ -58,3 +58,6 @@ This is the case of the `chromakey` function I fed with it's own output –after
     <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_3/assets/mixer_5.gif" align="middle" width="70%">
   </a>
 </p>
+
+## Week 4 - Performance 1
+The system developed for first performance was built from the video mixer designed during previous weeks. Main differences are that I added a `jit.rota` bock to scale the image of the channel 1 (left side) and that channel 2 (right side) `jit.chromakey` and `jit.op` had the option of being feed by channel 1 matrix as well as through a feedback loop.
