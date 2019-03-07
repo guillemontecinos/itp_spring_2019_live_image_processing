@@ -49,3 +49,12 @@
 * Judy Dunaway - Gian Ballon
 * Mark - desktop vide performances
 * `preset` object is useful for saving presets
+
+## Week 6 - Object Theatre
+* Karma
+* Dystopia
+* Surveillance
+* Human origin from Africa
+* Aladdin and sand
+* It's better to pick a story instead of creating it
+* [Casa Lobo](https://www.youtube.com/watch?v=AZUz_KhFzgc)
