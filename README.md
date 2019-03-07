@@ -61,3 +61,21 @@ This is the case of the `chromakey` function I fed with it's own output –after
 
 ## Week 4 - Performance 1
 The system developed for first performance was built from the video mixer designed during previous weeks. Main differences are that I added a `jit.rota` bock to scale the image of the channel 1 (left side) and that channel 2 (right side) `jit.chromakey` and `jit.op` had the option of being feed by channel 1 matrix as well as through a feedback loop.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_5/performance_01/documentation/final_patch.png" align="middle" width="40%">
+</p>
+
+The performance was designed as a audiovisual experience which goal was to immerse the audience in a sensory experience. For that, pre-recorded footage of southern Chile –shoot by my sister Claudia- and *Google Maps* was live mixed using the patch, at the same time that music was generated via Ableton Live. For this a Live set was developed, this was controlled by a MIDI controller and sent MIDI messages to the Max patch.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_5/performance_01/documentation/live_set.png" align="middle" width="40%">
+</p>
+
+Video mixing was live controlled from two sources: most parameters as sliders and toggle buttons were controlled via a *Roli Block* device –which can be seen in the presentation mode of the patch–, whilst channel 2 color parameters of `jit.rgb2hsl` and `jit.chromakey` –as hue, offset, tolerance, among others– were set by the MIDI controller used to trigger live set. The presentation mode of the patch reflects the signal flow divided in channels 1 and 2, which can be independently processed and then mixed.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2019_live_image_processing/blob/master/week_5/performance_01/documentation/final_presentation.png" align="middle" width="40%">
+</p>
+
+A rehearsal of this performance can be seen below. For better understanding of how the different elements interact, both Live and Max were recorded during the documentation process.
