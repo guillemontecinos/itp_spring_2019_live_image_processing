@@ -58,3 +58,9 @@
 * Aladdin and sand
 * It's better to pick a story instead of creating it
 * [Casa Lobo](https://www.youtube.com/watch?v=AZUz_KhFzgc)
+
+## Week 7 - Open GL
+* `qlim` limits the number of bangs
+* `jit.gl.videoplane` @transform_reset 2 fits the videoplane to the window size
+* shaders!! D:
+* `syphoclient` to connect with syphoner
