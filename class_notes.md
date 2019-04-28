@@ -64,3 +64,15 @@
 * `jit.gl.videoplane` @transform_reset 2 fits the videoplane to the window size
 * shaders!! D:
 * `syphoclient` to connect with syphoner
+
+## Week 9
+
+## Week 10
+* Final @ CultureHub
+* t => 3 - 5min
+* Resolution
+    * 1 ch: 1920x1080
+    * big screen: 3 (1280x720)
+
+## Week 11
+* `bpatcher` is a patch class creator
